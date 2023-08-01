@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <Header handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className="content">{renderPage()}</div>
     </div>
   );
 }
