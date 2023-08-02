@@ -1,12 +1,20 @@
 import "./Project.css";
+import { ReactComponent as Github } from "../icons/github.svg";
 
 export default function Project(props) {
   return (
     <div className="project">
       <img src={props.image} />
-      <a href={props.url}>{props.title}</a>
-      <a href={props.githubUrl}>Github</a>
-      <p>{props.description}</p>
+      <div className="project-title-container">
+        <a href={props.url} className="project-title">
+          {props.title}
+        </a>
+        <a href={props.githubUrl} className="project-github">
+          <Github />
+        </a>
+      </div>
+
+      <p className="project-description">{props.description}</p>
     </div>
   );
 }

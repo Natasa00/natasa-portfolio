@@ -4,38 +4,38 @@ import "./Portfolio.css";
 const projects = [
   {
     title: "Note Taker",
-    url: "",
+    url: "https://note-taker-natasa.herokuapp.com/",
     githubUrl: "https://github.com/Natasa00/Note_Taker",
-    description: "Simple note app with local storage",
-    image: "/project1.png",
+    description: "Write and save notes",
+    image: "/notetakerimage.png",
   },
   {
     title: "Virtual Adventures",
-    url: "",
-    githubUrl: "https://github.com/Natasa00/Virtual_Adventures",
-    description: "HTML, CSS, JavaScript, Google Maps API",
-    image: "/project1.png",
+    url: "https://robinsonfdossantos.github.io/Virtual_Adventures/",
+    githubUrl: "https://github.com/robinsonfdossantos/Virtual_Adventures",
+    description: "Find the best tourist destinations",
+    image: "/virtualadventuresimage.png",
   },
   {
-    title: "Virtual Adventures",
-    url: "",
-    githubUrl: "https://github.com/Natasa00/Virtual_Adventures",
-    description: "HTML, CSS, JavaScript, Google Maps API",
-    image: "/project1.png",
+    title: "Bloom and Barter",
+    url: "https://bloom-and-barter-3911749eadd3.herokuapp.com/",
+    githubUrl: "https://github.com/jnaoroji/Bloom_and_Barter",
+    description: "An online community site for plant lovers",
+    image: "/bloomandbarterimage.png",
   },
   {
-    title: "Virtual Adventures",
-    url: "",
-    githubUrl: "https://github.com/Natasa00/Virtual_Adventures",
-    description: "HTML, CSS, JavaScript, Google Maps API",
-    image: "/project1.png",
+    title: "Tech Blog",
+    url: "https://natasa-blog-123-6be5e7bcee4c.herokuapp.com/",
+    githubUrl: "https://github.com/Natasa00/Tech_Blog",
+    description: "CMS-style tech blog",
+    image: "/techblogimage.png",
   },
 ];
 
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h1 className="heading portfolio-heading">PORTFOLIO</h1>
       <div className="container">
         {projects.map((project) => {
           return <Project {...project} />;

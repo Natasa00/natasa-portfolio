@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+.App {}
 
 .App-logo {
   height: 40vmin;
@@ -8,7 +6,7 @@
 }
 
 .content {
-  padding: 40px;
+  padding: 80px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
