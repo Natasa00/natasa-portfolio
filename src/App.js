@@ -5,6 +5,7 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -32,6 +33,7 @@ function App() {
     <div className="App">
       <Header handlePageChange={handlePageChange} currentPage={currentPage} />
       <div className="content">{renderPage()}</div>
+      <Footer />
     </div>
   );
 }

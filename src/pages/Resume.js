@@ -13,7 +13,7 @@ export default function Resume() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span className="icon">&#x1f4CE;</span> Download resume
+        <span className="resume-icon">&#x1f4CE;</span> Download resume
       </a>
 
       <h2 className="resume-skills-heading">My skills</h2>
