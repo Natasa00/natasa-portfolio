@@ -1,7 +1,13 @@
+import "./AboutMe.css";
+
 export default function AboutMe() {
   return (
     <div>
       <h1 className="heading">ABOUT ME</h1>
+      <img
+        className="about-avatar"
+        src="https://media.licdn.com/dms/image/C5103AQFUub5MsMLXUg/profile-displayphoto-shrink_800_800/0/1517022904303?e=1696464000&v=beta&t=EeRmjTOEzKPVCgLDO4TfMfRvsPwwQNlSfQGm5NXTnRQ"
+      />
       <p>
         My name is Natasa Kilibarda and I am currently studying web development
         at the Univeristy of Adelaide Coding Boot Camp. Some of the exciting
