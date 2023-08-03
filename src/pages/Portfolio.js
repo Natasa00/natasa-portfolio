@@ -30,6 +30,20 @@ const projects = [
     description: "CMS-style tech blog",
     image: "/techblogimage.png",
   },
+  {
+    title: "Weather Dashboard",
+    url: "https://natasa00.github.io/WeatherDashboard/",
+    githubUrl: "https://github.com/Natasa00/WeatherDashboard",
+    description: "Check weather with OpenWeather API",
+    image: "/weatherdashboardimage.png",
+  },
+  {
+    title: "Text Editor",
+    url: "https://text-editor202-27272120115b.herokuapp.com/",
+    githubUrl: "https://github.com/Natasa00/Text_Editor",
+    description: "Text Editor PWA",
+    image: "/texteditorimage.png",
+  },
 ];
 
 export default function Portfolio() {
