@@ -4,7 +4,7 @@ import { ReactComponent as Github } from "../icons/github.svg";
 export default function Project(props) {
   return (
     <div className="project">
-      <img src={props.image} />
+      <img src={`/natasa-portfolio${props.image}`} />
       <div className="project-title-container">
         <a href={props.url} className="project-title">
           {props.title}
