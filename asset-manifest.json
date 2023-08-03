@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/natasa-portfolio/static/css/main.ee9271e8.css",
+    "main.js": "/natasa-portfolio/static/js/main.cf9d715e.js",
+    "static/js/787.0ba0f214.chunk.js": "/natasa-portfolio/static/js/787.0ba0f214.chunk.js",
+    "static/media/resume.pdf": "/natasa-portfolio/static/media/resume.d41cb1a31e6a289daef2.pdf",
+    "static/media/github.svg": "/natasa-portfolio/static/media/github.a6a2a861dc8703e7b734e643e93eab54.svg",
+    "index.html": "/natasa-portfolio/index.html",
+    "static/media/linkedin.svg": "/natasa-portfolio/static/media/linkedin.14ccb26f66e6d3dcc5133f50a45c8b34.svg",
+    "static/media/stackoverflow.svg": "/natasa-portfolio/static/media/stackoverflow.5262d4f6c2c717c59f7891dec61266a9.svg",
+    "main.ee9271e8.css.map": "/natasa-portfolio/static/css/main.ee9271e8.css.map",
+    "main.cf9d715e.js.map": "/natasa-portfolio/static/js/main.cf9d715e.js.map",
+    "787.0ba0f214.chunk.js.map": "/natasa-portfolio/static/js/787.0ba0f214.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee9271e8.css",
+    "static/js/main.cf9d715e.js"
+  ]
+}
